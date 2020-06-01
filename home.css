@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    line-height: 2.5;
+    font-family: 'Muli', 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.navigator {
+    padding: 8px 16px;
+    background-color: #bd5d38;
+    display: inline-block;
+    width: 16%;
+    height: 100vh;
+    text-align: center;
+    min-width: 200px;
+}
+#nav_photo {
+    border-radius: 50%;
+    border: 10px solid rgba(219, 170, 170, 0.671); 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.navigator ul {
+    margin: 70 0 0 0;
+    padding: 0;
+}
+
+.navigator ul li {
+    margin-bottom: 30px;
+    list-style: none;
+    line-height: normal;
+}
+
+
+.navigator ul li a {
+    color: lightcyan;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navigator ul li a:hover {
+    color: rgba(219, 170, 170, 0.671);
+}
+
+.contents {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    vertical-align: top;
+    min-width: 700px;
+}
+
+.contents h1 h2 {
+    color: #343a40;
+}
+
+.contents p {
+    color: #6c757d
+}
+
+.contents div {
+    margin-bottom: 60px;
+    padding: 25px;
+}
+
+.keywords {
+    color: #bd5d38;
+}
+
+span {
+    color: #bd5d38;
+}
